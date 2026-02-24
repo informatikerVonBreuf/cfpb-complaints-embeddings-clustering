@@ -1,0 +1,15 @@
+# Large data (do not commit)
+data/complaints.csv
+data/complaints_clean.parquet
+
+# Generated artifacts
+outputs/
+embeddings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
