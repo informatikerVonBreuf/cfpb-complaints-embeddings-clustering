@@ -1,10 +1,12 @@
 # Large data (do not commit)
 data/complaints.csv
 data/complaints_clean.parquet
+data/complaints_sample.parquet
 
 # Generated artifacts
 outputs/
-embeddings/
+embeddings/*.npy
+embeddings/*.npz
 
 # Jupyter
 .ipynb_checkpoints/
